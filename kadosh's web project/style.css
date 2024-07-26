@@ -1,0 +1,335 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 1250px;
+  margin: auto;
+}
+
+.Top-bar {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Top-bar button {
+  background-color: rgb(209, 74, 74);
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.acme-logo {
+  cursor: pointer;
+}
+
+.Menu {
+  background-color: rgb(209, 74, 74);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.Menu a:link:hover {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.menu-bar a:hover {
+  color: white;
+}
+
+.menu-bar img {
+  cursor: pointer;
+  width: 30px;
+  border: 20px;
+  border-radius: 5px;
+}
+
+.section-1 {
+  background-image: url(img/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+  background-position: center;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.background-text {
+  padding-top: 50px;
+  color: white;
+  text-align: start;
+  margin-left: 15px;
+}
+
+.background-text h1 {
+  font-size: 60px;
+}
+
+.shop-merch {
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: rgb(209, 74, 74, 0);
+  color: white;
+  cursor: pointer;
+  border-color: white;
+  border-style: solid;
+  font-weight: 500;
+}
+
+.shop-merch:hover {
+  background-color: white;
+  color: black;
+}
+
+.ways-to-support {
+  display: flex;
+  align-items: center;
+}
+
+.ways-to-support p {
+  padding-left: 100px;
+}
+
+.image-01,
+.image-02,
+.image-03 {
+  background-image: url(img/black\ backgroud.jpeg);
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  height: 250px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.image-01 h1,
+.image-02 h1,
+.image-03 h1 {
+  text-align: center;
+}
+
+.image-01 p,
+.image-02 p,
+.image-03 p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.before-image-01 h3,
+.before-image-02 h3,
+.before-image-03 h3 {
+  font-size: 15px;
+  margin-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.how-to-support {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 100px;
+  /* justify-content: center; */
+}
+
+.section-3 {
+  background-image: url(img/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 70px;
+}
+
+.background-text-section-3 {
+  color: white;
+  padding: 50px;
+  text-align: end;
+  margin-right: 70px;
+}
+
+.background-text-section-3 h1 {
+  font-size: 50px;
+}
+
+.background-text-section-3 p {
+  line-height: 25px;
+}
+
+.our-statement {
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border-style: none;
+}
+
+.our-statement:hover {
+  background-color: rgb(209, 74, 74);
+  color: white;
+}
+
+.shop-products p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+.shop-products-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  margin-top: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+li button {
+  background-color: rgb(209, 74, 74);
+  color: white;
+  border-radius: 5px;
+  padding: 7px 30px;
+  border-style: none;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: black;
+  color: white;
+}
+
+.view-all-products {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding: 7px 20px;
+  border-style: none;
+  cursor: pointer;
+  margin-left: 625px;
+  margin-top: 40px;
+}
+
+.view-all-products:hover {
+  background-color: rgb(209, 74, 74);
+}
+
+blockquote {
+  background-image: url(img/black\ backgroud.jpeg);
+  color: white;
+  padding: 30px 0;
+
+  border: 20px;
+  border-radius: 5px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.Shop-local {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+.pic-shop-local {
+  display: flex;
+  gap: 200px;
+}
+
+blockquote p {
+  margin-left: 120px;
+}
+
+blockquote img {
+  width: 300px;
+  margin-left: -40px;
+}
+
+footer {
+  background-color: black;
+  font-size: 12px;
+  padding: 40px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+footer p a {
+  color: rgb(209, 74, 74);
+}
+
+footer p a:hover {
+  text-decoration: none;
+}
+
+.acme-logo {
+  width: 100px;
+  margin-top: 20px;
+  flex: 0 0 100px;
+  cursor: pointer;
+}
+
+.social-media-logos {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.logos-wrap {
+  display: flex;
+  gap: 900px;
+}
+
+footer::after {
+  content: "Made in Webflow";
+  background-color: white;
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
